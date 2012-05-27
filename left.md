@@ -1,5 +1,7 @@
 ---
-title: This will be used as the title-tag of the page head
+layout: default
+title: Radesh Rao
+description: My personal landing page
 ---
 
 Radesh Rao
