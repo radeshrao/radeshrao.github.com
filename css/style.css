@@ -1,7 +1,9 @@
+
 a.social-media-link {
 	text-decoration:none;
 	color:inherit;
-	font-size: 36px;
+	font-size: 32px;
+	color: #333333;
 }
 
 div.main {
@@ -10,22 +12,40 @@ div.main {
 	left: 50%;
 	margin-left: -50px;
 	margin-top: -40px;
-	font-size: 32px;
+	font-size: 36px;
 	width: 400px;
 	height: 100px;
 	text-align: right;
 }
 
+div.media-section {
+	padding-right:15px;
+}
+
 h2 {
   margin: 3px 0;
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 700;
-  padding-left:55px;
+  padding-left:30px;
+  padding-right:15px;
   border-bottom: 1px dashed #999;
-  color: #333333;
-  letter-spacing: 2px;
+  color:#222;
+  letter-spacing: 1.2px;
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family:"PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+div.footer {
+    position : absolute;
+    bottom : 0;
+    height : 20px;
+    margin-top : 0px;
+	color:#777;
+  	font-size: 10px;
+	text-align: center;
+  	width: 90%;
 }
