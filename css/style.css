@@ -1,1 +1,31 @@
-a.social-media-link {text-decoration:none; color:inherit;}
+a.social-media-link {
+	text-decoration:none;
+	color:inherit;
+	font-size: 36px;
+}
+
+div.main {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -40px;
+	font-size: 32px;
+	width: 400px;
+	height: 100px;
+	text-align: right;
+}
+
+h2 {
+  margin: 3px 0;
+  font-size: 50px;
+  font-weight: 700;
+  padding-left:55px;
+  border-bottom: 1px dashed #999;
+  color: #333333;
+  letter-spacing: 2px;
+}
+
+body {
+  font-family: Georgia, serif;
+}
