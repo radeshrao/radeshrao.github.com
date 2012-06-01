@@ -8,33 +8,31 @@ a.social-media-link {
 
 div.main {
 	position: fixed;
-	top: 50%;
-	left: 50%;
-	margin-left: -50px;
-	margin-top: -40px;
+	bottom: 30%;
+	right: 10%;
 	font-size: 36px;
 	width: 400px;
-	height: 100px;
+	height: 120px;
 	text-align: right;
+	overflow: auto;
 }
 
 div.media-section {
-	padding-right:15px;
+	padding-right:20px;
 }
 
 h2 {
   margin: 3px 0;
   font-size: 48px;
   font-weight: 700;
-  padding-left:30px;
-  padding-right:15px;
+  padding-left:20px;
   border-bottom: 1px dashed #999;
   color:#222;
   letter-spacing: 1.2px;
 }
 
 body {
-  font-family:"PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;
+  font-family:"Georgia","Helvetica Neue",Arial,sans-serif;
   font-size: 12px;
   font-weight: 400;
 }
