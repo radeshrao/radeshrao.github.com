@@ -4,26 +4,38 @@
     <style type="text/css">
         html,
         body {
-            margin: 40px auto;
-            max-width: 650px;
-            line-height: 1.6;
+
             font-size: 18px;
             color: #444;
-            padding: 0 10px
+            background-color: #E8E8E8;
         }
 
         h1,
         h2,
         h3 {
-            line-height: 1
+            line-height: 1;
+            font-family: dm serif display, serif, -apple-system;
         }
 
         .li-container {
-            height: 60%;
+            height: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            
+            background-color: #fcfcfc;
+            border-radius: .5rem;
+        }
+
+        .red-square {
+            background-color: #fcfcfc;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: .5rem;
+            padding: 25px;
         }
 
         .centered {
@@ -37,11 +49,11 @@
 </head>
 
 <body>
-    <div class="li-container">
+    <div class="red-square">
         <div class="centered">
             <img class="avatar" src="https://www.radeshrao.com/images/avatar.jpg" alt="avatar" />
-            <h2>Radesh Rao</h1>
-            <h3>VP Engineering @ Major League Baseball</h2>
+            <h3>Radesh Rao</h3>
+            <h4>VP Engineering @ Major League Baseball</h4>
         </div>
     </div>
 </body>
