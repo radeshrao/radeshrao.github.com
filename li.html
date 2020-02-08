@@ -5,41 +5,21 @@
         html,
         body {
 
-            font-size: 18px;
+            font-size: 1.5vw;
             color: #444;
             background-color: #E8E8E8;
         }
 
-        h1,
-        h2,
-        h3 {
-            line-height: 1;
-            font-family: dm serif display, serif, -apple-system;
-        }
-
-        .li-container {
-            height: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #fcfcfc;
-            border-radius: .5rem;
-        }
-
-        .red-square {
-            background-color: #fcfcfc;
-            width: 300px;
-            height: 300px;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            border-radius: .5rem;
-            padding: 25px;
-        }
-
         .centered {
+            left: 30%;
+            width: 40%;
+            height: 40%;
+            top: 30%;
+            background-color: #fcfcfc;
+            position: absolute;
             text-align: center;
+            padding: 1em;
+            border-radius: 2%;
         }
 
         .avatar {
@@ -49,11 +29,12 @@
 </head>
 
 <body>
-    <div class="red-square">
-        <div class="centered">
+    <div class="centered">
+        <div>
             <img class="avatar" src="https://www.radeshrao.com/images/avatar.jpg" alt="avatar" />
             <h3>Radesh Rao</h3>
-            <h4>VP Engineering @ Major League Baseball</h4>
+            <h5>VP of Engineering @ Major League Baseball</h5>
+            <h6><a href="https://www.linkedin.com/in/radeshrao">li</a></h6>
         </div>
     </div>
 </body>
