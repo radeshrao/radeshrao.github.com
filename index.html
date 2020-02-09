@@ -4,16 +4,17 @@
     <style type="text/css">
         html,
         body {
-            font-size: 2vw;
+            font-size: 1.5vw;
             color: #444;
             /* background-color: #EEEEEE; */
+            font-family: Palatino, 'Times New Roman', serif;
         }
 
         .centered {
             left: 30%;
             width: 40%;
             height: 40%;
-            top: 20%;
+            top: 30%;
             /* background-color: #fcfcfc; */
             position: absolute;
             text-align: center;
@@ -26,6 +27,25 @@
         .avatar {
             border-radius: 50%;
         }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: #444;
+            border-bottom: 1px dashed #444;
+        }
+
+        a:visited {
+            color: #444;
+            border-bottom: 1px dashed #444;
+        }
+
+        a:hover {
+            color: #444;
+            border-bottom: 1px solid black;
+        }
     </style>
 </head>
 
@@ -33,9 +53,8 @@
     <div class="centered">
         <div>
             <img class="avatar" src="https://www.radeshrao.com/images/avatar.jpg" alt="avatar" />
-            <h4>Radesh Rao</h4>
-            <h5>VP of Engineering @ Major League Baseball</h5>
-            <h6><a href="https://www.linkedin.com/in/radeshrao">li</a></h6>
+            <p style="font-size: larger">Radesh Rao</p>
+            <p style="font-size: smaller;"><a href="https://www.linkedin.com/in/radeshrao">VP of Engineering @ Major League Baseball</a></p>
         </div>
     </div>
 </body>
